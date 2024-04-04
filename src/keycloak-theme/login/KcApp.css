@@ -1,16 +1,64 @@
-
 .my-color {
-	color: red;
+  color: green;
 }
 
 .my-font {
-	font-family: 'Work Sans';
+  font-family: "Work Sans";
 }
 
 .my-root-class {
-	background: white;
+  background: white;
 }
 
 .my-root-class body {
-	background: url(./assets/background.svg) no-repeat center center fixed;
+  background: url(./assets/background_green.svg) no-repeat center center fixed;
+}
+
+.btn-primary {
+  /*background-color: #0088ce;
+	background-image: linear-gradient(to bottom,#39a5dc 0,#0088ce 100%);
+	background-repeat: repeat-x;
+	border-color: #00659c;
+	color: #fff;
+	*/
+  background-color: green;
+  background-image: linear-gradient(to right, green 0, #01e412 100%);
+  background-repeat: repeat-x;
+  border-color: green;
+  color: #fff;
+  border: radius 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.btn-primary:hover {
+  color: #01e412;
+  background-color: white;
+  border-color: green;
+}
+
+.header-page-login {
+  padding-left: 0;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header-page-login img {
+  justify-self: center;
+}
+
+#kalbe-logo {
+  margin: auto;
+}
+
+#kc-page-title {
+  font-weight: 700;
+}
+
+#kc-page-text {
+  margin-top: 0;
 }
