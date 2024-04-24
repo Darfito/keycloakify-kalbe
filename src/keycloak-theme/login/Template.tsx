@@ -135,7 +135,7 @@ export default function Template(props: TemplateProps<KcContext, I18n>) {
                     alt="Keycloakify logo"
                     width={120}
                   />
-                  <h1 id="kc-page-title">Welcome to Werum</h1>
+                  <h1 id="kc-page-title">Welcome to KSF-P</h1>
                 </div>
               </div>
             ) : (
@@ -146,9 +146,9 @@ export default function Template(props: TemplateProps<KcContext, I18n>) {
                   alt="Keycloakify logo"
                   width={120}
                 />
-                <h1 id="kc-page-title">Welcome to Werum</h1>
+                <h1 id="kc-page-title">Welcome to KSF-P</h1>
                 <h3 id="kc-page-text">
-                  Please sign-in to access Werum keycloak
+                  Please sign-in to access KSF-P keycloak
                 </h3>
               </div>
               // <h1 id="kc-page-title">{headerNode}</h1>
